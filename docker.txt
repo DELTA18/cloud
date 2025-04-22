@@ -1,0 +1,12 @@
+
+sudo install docker
+mkdir mydockerapp
+nano index.html
+nano Dockerfile
+    FROM nginx:alpine
+    COPY . /usr/share/nginx/html
+docker build -t myhtmlapp .
+docker run -d -p 80:80 myhtmlapp
+docker ps(check karne ke lye)
+
+ec2 mai security mai inbound rules me http port 80 anywhere ipv4
