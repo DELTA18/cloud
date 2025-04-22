@@ -1,0 +1,12 @@
+
+create 1st iam user
+    policies: administratoraccess
+              IamUserChangePassword
+create bucket
+create 2nd iam user
+    policies: amazonAppFlowFullAccess
+              IamUserChangePassword
+login using iam user2
+    create bucket(it will fail that is outcome)
+
+---
