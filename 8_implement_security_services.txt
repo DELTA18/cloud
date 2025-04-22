@@ -1,0 +1,16 @@
+create cloudtrail
+    kms encryption - enabled
+    coustomer managed kms encryption key - new
+    log file validation - enabled
+s3 bucket
+cloudtrail -> event history
+dynamodb
+    create table
+check crete table in cloudtrail history
+create iam user
+    set permission -> add user to group
+login through iam user 
+do mfa auth
+login your own acc
+    macie -> enabled
+    guardduty -> enabled
